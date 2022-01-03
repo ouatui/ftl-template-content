@@ -1,0 +1,250 @@
+.ExternalClass {
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    background: #eaeaea;
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 1em;
+}
+
+img {
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+a img {
+    border: none;
+}
+
+#backgroundTable {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #eaeaea;
+}
+
+[id="backgroundTable"] {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #eaeaea;
+}
+
+#backgroundTable * {
+    font-family: 'NeurialGrotesk', sans-serif;
+}
+
+[id="backgroundTable"] * {
+    font-family: 'NeurialGrotesk', sans-serif;
+}
+
+a, a:link {
+    color: #2A5DB0;
+    text-decoration: underline;
+}
+
+table td {
+    border-collapse: collapse;
+}
+
+.card {
+    width: 586px;
+    height: 401px;
+    border-radius: 8px;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 4px 4px 60px 0 rgba(0, 0, 0, 0.03);
+    border: solid 1px #efefef;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+
+.biat-main-logo {
+    border-top-left-radius: 8px;
+    padding: 25px 0;
+}
+
+[class="biat-main-logo"] {
+    border-top-left-radius: 8px;
+    padding: 25px 0;
+}
+
+.biat-corp-logo {
+    text-align: right;
+    border-top-right-radius: 8px;
+    padding: 32px 0;
+}
+
+[class="biat-corp-logo"] {
+    text-align: right;
+    border-top-right-radius: 8px;
+    padding: 32px 0;
+}
+
+.card-header {
+    height: 90px;
+    background-color: #f8f8f8;
+}
+
+.card-header > td {
+    border-bottom: 1px solid #efefef;
+}
+
+.biat-main-logo > img {
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 36px;
+}
+
+[class="biat-main-logo"] > img {
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 36px;
+}
+
+.biat-corp-logo > img {
+    height: 17px;
+    min-height: 17px;
+    max-height: 17px;
+    margin-right: 36px;
+    margin-top: 4px;
+}
+
+[class="biat-corp-logo"] > img {
+    height: 17px;
+    min-height: 17px;
+    max-height: 17px;
+    margin-right: 36px;
+    margin-top: 4px;
+    max-width: 75px;
+}
+
+.card-body {
+    vertical-align: top;
+    text-align: center;
+}
+
+.card-body > td {
+    padding: 20px 36px;
+}
+
+.card-body h1 {
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #454545;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-body .paragraph {
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #6a6a6a;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.biat-paragraph-logo > span.first {
+    font-family: 'NeurialGrotesk', sans-serif;
+    color: #df9b1b;
+    font-weight: 700;
+}
+
+.biat-paragraph-logo > span.second {
+    font-family: 'NeurialGrotesk', sans-serif;
+    color: #254676;
+    font-weight: 700;
+}
+
+.biat-paragraph-logo > span.third {
+    font-family: 'NeurialGrotesk', sans-serif;
+    color: #254676;
+    font-weight: 600;
+}
+
+.card-body .btn {
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 1.33;
+    font-size: 12px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #d0661c;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 60px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.card-body .btn:hover,
+.card-body .btn:focus {
+    background-color: #d0661c;
+    text-decoration: none;
+}
+
+.card-body .sub-paragraph {
+    color: #989898;
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+}
+
+.card-footer {
+    background-color: #f8f8f8;
+    height: 38px;
+}
+
+.card-footer > td {
+    border-top: 1px solid #efefef;
+    text-align: center;
+}
+
+.card-footer .sub-paragraph {
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.card-footer .sub-paragraph > a {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.card-footer .sub-paragraph > a:hover,
+.card-footer .sub-paragraph > a:focus,
+.card-footer .sub-paragraph > a:active {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.card tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.card tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
